@@ -33,6 +33,7 @@ bower_components
 build/Release
 
 # Dependency directories
+package-lock.json
 node_modules/
 jspm_packages/
 
@@ -57,3 +58,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# configs
+config/dev.js
+config/firebase.dev.json
+config/prod.js
+config/firebase.prod.json
